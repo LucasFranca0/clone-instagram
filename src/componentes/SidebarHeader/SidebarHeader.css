@@ -1,0 +1,68 @@
+.SidebarHeader {
+    background: var(--background);
+    border-right:#DBDBDB 1px solid;
+    width: 16.5vw;
+    max-width: 20%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+
+.SidebarHeader .container {
+    width: 90%;
+    height: 90%;
+    padding-left: 10px;
+}
+
+
+.logoInstagram {
+    max-width: 10vw;
+    margin: 40px 20px;
+    width: 103px;
+    cursor: pointer;
+}
+
+.listItem {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 10px;
+}
+
+.item {
+    border-radius: 25px;
+    width: 100%;
+    padding: 8px;
+    margin: 3% 0;
+    cursor: pointer;
+    user-select: none;
+    align-items: center;
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+}
+
+.item:hover {
+    background: #d3d3d3;
+}
+
+
+
+.iconeItem svg{
+    color: #333333;
+    height: 24px;
+    width: 24px;
+}
+
+.perfil {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.perfilNome {
+    display: flex;
+    align-items: center;
+    justify-content: float;
+    padding: 10px 15px;
+}
