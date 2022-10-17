@@ -18,7 +18,7 @@ Para que o projeto não fique genérico ou simples demais, vamos dar um foco mai
 
 |  API Utilizada | 
 | ------------- |
-| api.github.com   |
+| github   |
 | |
 
 
