@@ -12,7 +12,7 @@ Para que o projeto não fique genérico ou simples demais, vamos dar um foco mai
 | Linguagem   | JavaScript |
 | Biblioteca | React, ReactIcons |
 
-
+** **
 ### O que eu achei do projeto?
 
 Foi meu primeiro contato com React e gostei muito da organização que o React traz com seus componentes. E também da fragmentação que podemos fazer com o React, dividindo os arquivos em componentes e assim pensando em um projeto como  um quebra-cabeça. Bastante interesante para trabalhar em grupo. Curti conhecer um pouco de React e aprende um pouco mais nesse imenso campo da programação. Não pararei por aqui, futuramente trarei mais projetos. :star:
