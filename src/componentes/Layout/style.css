@@ -3,7 +3,6 @@
     
     grid-template-areas: "firstColumn secondColumn";
     grid-template-columns: 474px 293px;
-
     grid-gap: 35px;
 
     max-width: 600px;
@@ -17,6 +16,7 @@
 
 .second-column {
     margin-top: 30px;
+   
 }
 
 .suggestionBox {

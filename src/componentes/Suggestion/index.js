@@ -19,10 +19,10 @@ export function Suggestion() {
             })
 
             .catch((err) => {
-                    throw new Error(err)
-                })
+                throw new Error(err)
+            })
 
-            }, [])
+    }, [])
 
     return (
         <div className="container-suggestion">

@@ -6,22 +6,22 @@ import { BsChat } from 'react-icons/bs';
 import { BsBookmark, BsEmojiSmile } from 'react-icons/bs';
 import { IconContext } from 'react-icons';
 
-export function Post() {
+export function Post3() {
     return (
         <>
             <header className='header-post'>
 
                 <div className="info-post">
-                    <img src="https://cdn.discordapp.com/attachments/1030653726173696010/1031353814789410826/download.png" />
+                    <img src="https://cdn.discordapp.com/attachments/1030653726173696010/1031370509314703431/Captura_de_Tela_318.png" />
 
-                    <p>cursoemvideo</p>
+                    <p>maykbrito</p>
                 </div>
 
                 <FiMoreHorizontal />
             </header>
 
             <div className="img-post">
-                <img src={`https://cdn.discordapp.com/attachments/1030653726173696010/1031354766837682176/Captura_de_Tela_314.png`} />
+                <img src="https://cdn.discordapp.com/attachments/1030653726173696010/1031370319048486953/Captura_de_Tela_316.png" />
             </div>
 
             <div className="footer-post">
@@ -39,12 +39,21 @@ export function Post() {
                 </IconContext.Provider>
 
                 <section className="like">
-                    <span>700 curtidas</span>
+                    <span>343 curtidas</span>
                 </section>
 
                 <div className="legend">
                     <p>
-                        <strong>cursoemvideo</strong> Se você gosta de memes de programação compartilhe esse com os amigos.🖖😜
+                        <strong>maykbrito</strong> A minha solução esta boa? Existe uma maneira perfeita de resolver esse problema? Estou inseguro e não sei se consegui fazer da melhor maneira. <br></br><br></br>
+
+                        Na programação existem diversas maneiras de encontrar a solução a um problema, mas a nossa insegurança nos faz aqueles questionamentos que acabam nos travando na evolução dos estudos.<br></br><br></br>
+
+                        Não espere encontrar a solução perfeita, encontre a solução que resolve um problema e segue o jogo!<br></br>
+                        <div className="time-post">
+                    <time>22 sem</time>
+                </div>
+
+                <br></br> <strong>lilcas12</strong> Isso mesmo!
                     </p>
                 </div>
 

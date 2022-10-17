@@ -1,22 +1,43 @@
 import './style.css';
+import { useEffect, useState } from 'react';
 
 export function Story() {
+
+    const [suggestions, setSuggestions] = useState([])
+
+    const [limitUsers, setLimitUsers] = useState(5)
+
+    const slice = suggestions.slice(0, limitUsers)
+
+    useEffect(() => {
+        fetch(`https://api.github.com/users/LucasFranca0/followers`)
+            .then((response) => {
+                return response.json()
+            })
+            .then((result) => {
+                setSuggestions(result)
+            })
+
+            .catch((err) => {
+                    throw new Error(err)
+                })
+
+            }, [])
+
+
+
     return (
         <div className="story-container">
-            <div className="user-elements" >
+            {slice.map((suggestion, key) => (
+            <div className="user-elements"  key={key} >
 
                 <div>
-                    <img className="image-user-story" src="https://cdn.discordapp.com/attachments/1030653726173696010/1030654578749866024/luquinhas1111.jpeg" />
+                    <img className="image-user-story" src={`https://github.com/${suggestion.login}.png`} />
                 </div>
-                <span>Proa</span>
+                <span>{suggestion.login}</span>
             </div>
-
-            <div className="user-elements" >
-                <div>
-                    <img className="image-user-story" src="https://cdn.discordapp.com/attachments/1030653726173696010/1030654578749866024/luquinhas1111.jpeg" />
-                </div>
-                <span>Instituto Proa</span>
-            </div>
+            ))}
         </div>
+            
     )
 }
