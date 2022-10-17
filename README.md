@@ -13,7 +13,7 @@ Para que o projeto não fique genérico ou simples demais, vamos dar um foco mai
 | Tecnologias Utilizadas | |
 | ------------- |------------- |
 | Linguagem   | JavaScript |
-| Biblioteca | React, ReactIcons |
+| Biblioteca | React.js, ReactIcons |
 
 ** **
 ### O que eu achei do projeto?
