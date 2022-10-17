@@ -12,57 +12,79 @@
 .SidebarHeader .container {
     width: 90%;
     height: 90%;
-    padding-left: 10px;
+    padding-left: 15px;
 }
 
 
 .logoInstagram {
     max-width: 10vw;
-    margin: 40px 20px;
-    width: 103px;
+    margin: 34px 22px;
+    width: 107px;
     cursor: pointer;
+}
+
+
+.home-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .listItem {
     display: flex;
     flex-direction: column;
     width: 90%;
-    gap: 10px;
+    gap: 5px;
 }
 
 .item {
     border-radius: 25px;
     width: 100%;
     padding: 8px;
-    margin: 3% 0;
+    margin: 4% 0;
     cursor: pointer;
     user-select: none;
-    align-items: center;
     display: flex;
     gap: 16px;
-    font-size: 18px;
+    font-size: 15px;
+    align-items: center;
 }
 
 .item:hover {
-    background: #d3d3d3;
+    background: #e5e7eb;
 }
-
-
 
 .iconeItem svg{
     color: #333333;
-    height: 24px;
-    width: 24px;
+    height: 26px;
+    width: 26px;
 }
 
-.perfil {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-}
-.perfilNome {
+.perfil-sidebar {
+    margin-left: 9px;
     display: flex;
     align-items: center;
-    justify-content: float;
-    padding: 10px 15px;
+    gap: 16px;
+    margin-top: 4%;
+}
+
+.perfil-sidebar img {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.perfil-sidebar img:hover {
+    transform: scale(1.1);
+}
+
+
+.mais {
+    margin-top: 50%;
+}
+
+.mais :hover {
+    background: #e5e7eb;
 }

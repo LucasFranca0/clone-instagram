@@ -1,12 +1,9 @@
 import './SidebarHeader.css';
 import Item from './componentes/Item';
-import { FiHome } from 'react-icons/fi';
-import { DiAndroid } from "react-icons/di";
-import { HiOutlineSearch } from "react-icons/hi";
-import { RiMessengerLine } from "react-icons/ri";
-import { BsPlusSquare } from "react-icons/bs";
-import { MdOutlineExplore } from "react-icons/md";
-import { FiHeart } from "react-icons/fi";
+import { RiMessengerLine,RiSearchLine } from "react-icons/ri";
+import { FiHeart, FiPlusSquare } from "react-icons/fi";
+import { MdHomeFilled } from "react-icons/md";
+import { FaBars } from "react-icons/fa";
 
 function SidebarHeader(props) {
     return (
@@ -15,12 +12,18 @@ function SidebarHeader(props) {
 
             <div className='container'>
                 <div className="listItem">
-                    <div> <Item icone={<FiHome />} nome="Página inicial" /></div>
-                    <div><Item icone={<HiOutlineSearch />} nome="Explorar" /></div>
+                    <div> <Item icone={<MdHomeFilled />} nome={`Página inicial`} /></div>
+                    <div><Item icone={<RiSearchLine />} nome="Explorar" /></div>
                     <div><Item icone={<RiMessengerLine />} nome="Mensagens" /></div>
-                    <div><Item icone={<BsPlusSquare />} nome="Notificações" /></div>
-                    <div><Item icone={<MdOutlineExplore />} nome="Criar" /></div>  
+                    <div><Item icone={<FiHeart />} nome="Notificações" /></div>
+                    <div><Item icone={<FiPlusSquare />} nome="Criar" /></div>
+                    <div className="perfil-sidebar">
+                        <img src={`https://github.com/LucasFranca0.png`} />
+                        <p>Perfil</p>
+                    </div>
+                    <div className='mais'><Item icone={<FaBars />} nome="Mais" /></div>
                 </div>
+
             </div>
 
         </div>
