@@ -13,10 +13,8 @@ export function Post() {
 
                 <div className="info-post">
                     <img src="https://cdn.discordapp.com/attachments/1030653726173696010/1031353814789410826/download.png" />
-
                     <p>cursoemvideo</p>
                 </div>
-
                 <FiMoreHorizontal />
             </header>
 
